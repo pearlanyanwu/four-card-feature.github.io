@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 1% 0;
+}
+
+header p {
+  width: 30%;
+  margin: auto;
+  margin-top: -1em;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h1,
+h2 {
+  font-size: 2.36em;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(234, 12%, 34%);
+}
+
+h2 {
+  font-weight: 600;
+  margin-top: -0.7em;
+}
+
+h3 {
+  margin-top: 10%;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+#s,
+#b,
+#k,
+#c {
+  height: 275px;
+  width: 325px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 0 2em;
+}
+
+#s {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+#b {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+#k {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+#c {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.supervisor div,
+.calculator div {
+  margin-top: 44%;
+}
+
+.supervisor div {
+  margin-left: -7%;
+}
+
+.calculator div {
+  margin-left: 7%;
+}
+
+.builder-karma div {
+  margin: 7% 0;
+}
+
+.icons {
+  float: right;
+  margin-top: 55px;
+}
+
+section p {
+  font-size: 10px;
+}
