@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/pearlanyanwu/four-card-feature.github.io)
-- Live Site URL: [Add live site URL here](https://pearlanyanwu.github.io/four-card-feature.github.io/)
+- Solution URL: [https://github.com/pearlanyanwu/four-card-feature.github.io]
+- Live Site URL: [https://pearlanyanwu.github.io/four-card-feature.github.io/]
 
 ## My process
 
