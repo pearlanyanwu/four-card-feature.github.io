@@ -2,62 +2,60 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container,
+header p {
+  margin: 0 auto;
 }
 
 header {
   text-align: center;
-  padding: 20px 0;
 }
 
 header p {
-  width: 30%;
-  margin: auto;
-  margin-top: -1em;
+  width: 95%;
+  margin-bottom: 5em;
+  font-weight: 400;
+}
+
+header p,
+section div p {
+  color: hsl(229, 6%, 66%);
 }
 
 h1 {
   font-weight: 200;
+  margin-bottom: -1em;
 }
 
-h2 {
-  font-weight: 600;
-  margin-top: -0.7em;
+h1, h2 {
+  font-size: 25px;
 }
 
-h3 {
-  margin-top: 20px;
-}
-
-h1,
-h2 {
-  font-size: 2.36rem;
-}
-
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   color: hsl(234, 12%, 34%);
 }
 
-p {
-  color: hsl(229, 6%, 66%);
-}
-
-.container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-}
-
-#s,
-#b,
-#k,
-#c {
-  height: 275px;
-  width: 325px;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+section div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0 20px;
+  padding-bottom: 7em;
   border-radius: 5px;
-  padding: 0 2em;
+  margin: 20px 0;
+}
+
+section div p {
+  font-size: 15px;
+  width: 95%;
+}
+
+img {
+  float: right;
+  margin-right: 10px;
+  margin-top: 16px;
+  height: 60px;
 }
 
 #s {
@@ -76,28 +74,42 @@ p {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-.supervisor div,
-.calculator div {
-  margin-top: 11em;
-}
+@media screen and (min-width: 1440px) {
+  h1, h2 {
+    font-size: 38.5px;
+  }
 
-.supervisor div {
-  margin-left: -7%;
-}
+  header p {
+    width: 30%;
+    margin-top: -1rem;
+  }
 
-.calculator div {
-  margin-left: 7%;
-}
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.builder-karma div {
-  margin: 7% 0;
-}
+  section {
+    width: 60%;
+    margin: 0 auto;
+  }
 
-.icons {
-  float: right;
-  margin-top: 55px;
-}
+  .supervisor, .calculator {
+    grid-row-end: span 2;
+    margin-top: 20%;
+  }
 
-section p {
-  font-size: 10px;
+  .supervisor {
+    margin-right: -5em;
+  }
+
+  .calculator {
+    margin-left: -5em;
+  }
+
+  .karma {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin-top: 0;
+  }
 }
