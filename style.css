@@ -2,7 +2,6 @@
 
 * {
   font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
 }
 
 .container,
@@ -100,11 +99,11 @@ img {
   }
 
   .supervisor {
-    margin-right: -5em;
+    margin-right: -6em;
   }
 
   .calculator {
-    margin-left: -5em;
+    margin-left: -6em;
   }
 
   .karma {
