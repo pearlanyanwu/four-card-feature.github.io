@@ -10,8 +10,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued Development](#continued-development)
 
 ## Overview
 
@@ -35,11 +33,3 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS Grid
-
-### What I learned
-
- Will fill out soon.
-
-### Continued Development
-
-Working on responsiveness to smaller device screen sizes.
