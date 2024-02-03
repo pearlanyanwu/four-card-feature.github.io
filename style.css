@@ -80,12 +80,13 @@ img {
 
 @media screen and (min-width: 1440px) {
   h1, h2 {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   header p {
-    width: 30%;
-    margin-top: -1rem;
+    width: 28%;
+    margin-top: -0.5rem;
+    font-size: 15px;
   }
 
   .container {
