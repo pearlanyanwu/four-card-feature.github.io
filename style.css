@@ -48,6 +48,7 @@ section div {
   border-radius: 5px;
   margin: 20px auto;
   width: 80%;
+  max-width: 375px;
 }
 
 section div p {
