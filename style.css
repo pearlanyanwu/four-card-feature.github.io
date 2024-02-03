@@ -42,7 +42,8 @@ section div {
   padding: 0 20px;
   padding-bottom: 7em;
   border-radius: 5px;
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 80%;
 }
 
 section div p {
