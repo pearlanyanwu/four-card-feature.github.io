@@ -48,7 +48,7 @@ section div {
   border-radius: 5px;
   margin: 20px auto;
   width: 80%;
-  max-width: 375px;
+  max-width: 275px;
 }
 
 section div p {
@@ -110,11 +110,11 @@ img {
   }
 
   .supervisor {
-    margin-right: -140px;
+    margin-right: -160px;
   }
 
   .calculator {
-    margin-left: -140px;
+    margin-left: -160px;
   }
 
   .karma {
