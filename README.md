@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://pearlanyanwu.github.io/four-card-feature.github.io/]
+- Live Site URL: https://pearlanyanwu.github.io/four-card-feature.github.io/
 
 ## My process
 
